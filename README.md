@@ -1,8 +1,25 @@
-# YOLO Object Counting Project
+<h1 align="center">
+  <br />
+  <img
+    src="./asset/computer_vision.png"
+    alt="Computer Vision Project"
+    width="150"
+  />
+  <br />
+  <b>Computer Vision Project</b>
+  <br />
+  <sub
+    ><sup><b>(Object Counting using Yolo11)</b></sup></sub
+  >
+  <br />
+
+
+
+### YOLO Object Counting Project
 
 This project implements object counting using the YOLOv11 model. It processes video input to count specified objects within defined regions and outputs the results to a new video file.
 
-## Project Structure
+#### Project Structure
 
 ```
 yolo-object-counting
@@ -15,7 +32,7 @@ yolo-object-counting
 └── README.md             # Project documentation
 ```
 
-## Setup Instructions
+#### Setup Instructions
 
 1. **Clone the repository:**
    ```
@@ -32,7 +49,7 @@ yolo-object-counting
 3. **Install FFmpeg:**
    Follow the instructions to install FFmpeg on your system: https://ffmpeg.org/download.html
 
-## Usage
+#### Usage
 
 1. Place your video file in the `input_videos` folder.
 2. Modify the `src/main.py` file to specify the path to your video file and the desired counting region.
@@ -41,13 +58,13 @@ yolo-object-counting
    python src/main.py
    ```
 
-4. The output video will be saved as `object_counting_output.mp4` in the `output_videos` folder.
+4. The output video will be saved as `object_counting_output.mp4` in the `output_videos` folder after conversion.
 
-## Notes
+#### Notes
 
 - Ensure you have the YOLOv11 model weights (`yolo11n.pt`) available in the project directory or specify the correct path in the code.
 - Adjust the region points in `main.py` to fit your counting needs.
 
-## License
+#### License
 
 This project is licensed under the MIT License.
