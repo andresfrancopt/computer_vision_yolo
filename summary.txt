@@ -1,0 +1,23 @@
+Collecting workspace informationHere's a high-level overview of the code in both languages:
+
+### English
+This computer vision project uses YOLOv11 to count objects (specifically birds - class 14) in video streams. The code:
+
+1. Takes a high-resolution video input (3840x2160) from input_videos
+2. Uses the `load_model` function to initialize YOLOv11 for object detection
+3. Processes each video frame to detect and count objects crossing a defined line at x=2300
+4. Displays a counter overlay in the top-right corner showing:
+   - Number of objects entering the region
+   - Number of objects leaving the region
+5. Saves the output initially as AVI, then converts it to MP4 using FFmpeg
+
+### Português (Brasil)
+Este projeto de visão computacional usa YOLOv11 para contar objetos (especificamente pássaros - classe 14) em streams de vídeo. O código:
+
+1. Recebe um vídeo de alta resolução (3840x2160) do diretório input_videos
+2. Usa a função `load_model` para inicializar o YOLOv11 para detecção de objetos
+3. Processa cada quadro do vídeo para detectar e contar objetos que cruzam uma linha definida em x=2300
+4. Exibe um contador no canto superior direito mostrando:
+   - Número de objetos entrando na região
+   - Número de objetos saindo da região
+5. Salva a saída inicialmente como AVI, depois converte para MP4 usando FFmpeg

@@ -1,0 +1,3 @@
+opencv-python
+ultralytics
+ffmpeg-python  # Optional: if you want to use a Python wrapper for FFmpeg
